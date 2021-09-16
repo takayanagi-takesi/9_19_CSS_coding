@@ -1,7 +1,92 @@
 @charset "UTF-8";
 
+/*px 絶対値*/
+/*%.remは画面の比率によって変わる　相対値*/
+
 /*ボディータグに背景*/
 body {
-  background-color: rgb(255, 254, 238);
+  background-color: rgba(255, 240, 240, 0.856);
+  background-image: url(yozora800600.jpg);/*画像貼り付け*/
+  background-size: cover;/*画像サイズ調整(自動)*/
+  height: 100vh;/*画像サイズ高さ調整（画面一杯）*/
 }
 
+
+h1 {
+  color: turquoise;/*文字色*/
+}
+
+/*文字サイズ*/
+/*p {
+  font-size: 20px;
+}
+
+/*セレクタの指定*/
+/*div p { /*divの中のp*/
+/*  font-size: 50px;
+}
+
+/*セレクタの指定*/
+/* divとp
+div, p { 
+  font-size: 50px;
+}git
+*/
+
+/*サイズの種類*全体*２倍*px(サイズ)*/
+html {
+  font-size: 100%;
+}
+
+h1 {
+  font-size: 2rem;
+  font-family: serif;/*フォントの指定(明朝体で)*/
+  text-align: center;/*文章を揃える*/
+}
+
+h2 {
+  font-size: 20px;
+}
+
+
+/*------------------------
+フォントタイトル日本語の場合は""つける
+--------------------------*/
+
+
+/*文字の太さ変える*/
+h3 {
+  font-weight: 100;
+}
+
+/*行の高さを変える*/
+p {
+  line-height: 1.4px;
+}
+
+/*Webフォントをダウンロードして使う*/
+#example1 p {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+/*カラーの指定種類*/
+h2 {
+  color: #0bd;
+}
+
+h3 {
+  color: navy;
+}
+
+#example1 p {
+  color: rgba(165, 10, 62, 0.2);
+}
+
+h1 {
+  background-color: salmon;
+  width: 200px;/*背景模様長さ調整*/
+}
+
+p {
+  color: aquamarine;
+}

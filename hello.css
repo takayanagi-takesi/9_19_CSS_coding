@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+#example2 {
+  box-sizing: border-box;/*おまじない*/
+  border: 1px solid black;/*ボーダー*/
+  background-color: chartreuse;/*背景色*/
+  text-align: center;/*文字中央*/
+  width: 300px;/*横幅*/
+  padding: 10px;/*内側の余白*/
+  margin: 10px;/*外側の余白*/
+  border-radius: 5px;/*角丸*/
+}
